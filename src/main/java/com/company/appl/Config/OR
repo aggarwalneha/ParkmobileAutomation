@@ -1,0 +1,15 @@
+# Page Objects
+Email = .//input[@id = 'ctl00_ContentPlaceHolder1_UcUserLoginControl1_userName']
+loginOn = .//a[@title = 'Log on']
+Password = .//input[@id = 'ctl00_ContentPlaceHolder1_UcUserLoginControl1_password']
+RememberMe = .//input[@id = 'ctl00_ContentPlaceHolder1_UcUserLoginControl1_cbRememberUserName']
+SignUp = .//input[@id = 'ctl00_ContentPlaceHolder1_btnRegister']
+StartParkingLink = Start parking
+StartParkingPageVerify_Span = .//span[text(),'Start parking']
+LPN = .//select[@id = 'ctl00_cphMain_ucPermitParkingCasualStart1_dgUsers_ctl02_ddUserVrn']
+Zone = .//input[@id = 'ctl00_cphMain_ucPermitParkingCasualStart1_dgUsers_ctl02_tbZone']
+StartParkingButton = .//a[@id = 'ctl00_cphMain_ucPermitParkingCasualStart1_lnkStartParking']
+User_Tab = User
+UserTabVerify = .//table[@id = 'lblActivation']/tbody/tr[1]/td[1][text(),'Activate Parking']
+ExtendParkingLink = Extend Parking
+Logout = Log off
